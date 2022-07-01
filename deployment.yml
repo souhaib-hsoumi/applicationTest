@@ -1,7 +1,7 @@
 apiVersion: apps/v1 
 kind: Deployment 
 metadata: 
- name: test-deployment 
+ name: test-dep
 spec: 
  replicas: 2
  strategy: 
@@ -17,4 +17,4 @@ spec:
    spec: 
     containers: 
     - name: test-container 
-      image: souhaibhsoumi/frontendproject:1
+      image: souhaibhsoumi/testfront:1
