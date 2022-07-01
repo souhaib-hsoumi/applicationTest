@@ -17,4 +17,4 @@ spec:
    spec: 
     containers: 
     - name: test-container 
-      image: souhaibhsoumi/frontendproject:1
+      image: souhaibhsoumi/testfront:1
