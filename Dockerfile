@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 FROM node:12-alpine
-RUN RUN apk add --no-cache --virtual .gyp python3 make g++
+RUN  apk add --no-cache --virtual .gyp python3 make g++
 WORKDIR /app
 COPY . .
 RUN npm install --production
