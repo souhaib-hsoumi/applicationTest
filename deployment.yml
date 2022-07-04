@@ -4,6 +4,7 @@ metadata:
   name: test-config
 data:
   hello: world
+immutable: true
 ---
 apiVersion: apps/v1 
 kind: Deployment 
