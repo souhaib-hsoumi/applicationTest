@@ -25,4 +25,4 @@ spec:
    spec: 
     containers: 
     - name: test-container 
-      image: souhaibhsoumi/testfront:1.2
+      image: souhaibhsoumi/testfront:latest
