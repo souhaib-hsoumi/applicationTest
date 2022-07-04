@@ -92,7 +92,7 @@ function AddItemForm({ onNewItem }) {
     return (
 
         <Form onSubmit={submitNewItem}>
-                    <h1>Application for testing</h1>
+                    <h1>Application for test</h1>
 
             <InputGroup className="mb-3">
                 <Form.Control
