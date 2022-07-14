@@ -10,6 +10,6 @@ spec:
  ports:
  - name: test
    protocol: TCP
-   port: 3000
-   targetPort: 3000
+   port: 3002
+   targetPort: 3002
    nodePort: 32222
