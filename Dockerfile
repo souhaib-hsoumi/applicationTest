@@ -4,4 +4,4 @@ RUN apk add --no-cache python2 g++ make
 WORKDIR /app
 COPY . .
 CMD ["node", "src/index.js"]
-EXPOSE 3002
+EXPOSE 3000
