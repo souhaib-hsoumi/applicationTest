@@ -92,13 +92,9 @@ function AddItemForm({ onNewItem }) {
     return (
 
         <Form onSubmit={submitNewItem}>
-<<<<<<< HEAD
-                    <h1>Application for test</h1>
-                    <h1> test IT</h1>
-=======
-                    <h1>Application test</h1>
+                    <h1>Application  test</h1>
+                    
                      <h1>Application test</h1>
->>>>>>> cad56a073ae97195b4c6448d0c9fd5cbcef1a2a6
 
             <InputGroup className="mb-3">
                 <Form.Control
